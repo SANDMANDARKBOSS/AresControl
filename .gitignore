@@ -1,0 +1,46 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/whatsapp-bot/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+# Local database and dumps
+aresgym_db
+*.sqlite
+*.db
+
+# Temporary HTML previews
+*.html
+
+# Root-level utility and fix scripts
+fix_*
+test_*
+update_*
+patch_*
+insert_*
+link_edit.py
+hide_nav.py
+remove_*.py
+add_group_ui.php
+/0000_01_01_000000_create_roles_table.php
+/0001_01_01_000000_create_users_table.php
